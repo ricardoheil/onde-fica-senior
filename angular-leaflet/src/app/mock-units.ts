@@ -15,10 +15,10 @@ export const UNITS: Unit[] = [
 ];
 
 export const FLOORS: Floor[] = [
-  { id: 'floor_0', name: 'Térreo' },
-  { id: 'floor_1', name: '1º andar' },
-  { id: 'floor_2', name: '2º andar' },
-  { id: 'floor_3', name: '3º andar' },
-  { id: 'floor_4', name: '4º andar' },
-  { id: 'floor_5', name: '5º andar' }
+  { id: 'terreo', name: 'Térreo' },
+  { id: '1-andar', name: '1º andar' },
+  { id: '2-andar', name: '2º andar' },
+  { id: '3-andar', name: '3º andar' },
+  { id: '4-andar', name: '4º andar' },
+  { id: '5-andar', name: '5º andar' }
 ];

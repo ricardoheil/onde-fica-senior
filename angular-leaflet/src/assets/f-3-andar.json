@@ -1,8 +1,8 @@
 {
-	"id" : "floor_2",
-	"name": "2 andar",
+	"id" : "3-andar",
+	"name": "3 andar",
 	"details" : {
-		"img" : "assets/images/floor_2.png",
+		"img" : "assets/images/floor_3.png",
 		"categorized" : [
 			{
 				"title" : "Salas",
@@ -52,7 +52,7 @@
 				{
 					"title" : "teste!",
 					"titlePermanent" : false,
-					"message": "oi, retire seu item aqui!",
+					"message": "Retire seu item aqui!",
 					"latLng": [260, 222],
 					"markerColor" : "blue",
 					"iconColor" : "white",
@@ -61,9 +61,9 @@
 			],
 			"circleMarkers" : [
 				{
-					"title" : "eita!",
+					"title" : "area teste!",
 					"titlePermanent" : false,
-					"message": "area invadida!",
+					"message": "Mensagem aqui",
 					"latLng": [400, 222],
 					"color" : "blue",
 					"fillColor" : "red",

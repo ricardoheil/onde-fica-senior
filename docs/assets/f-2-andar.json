@@ -1,14 +1,14 @@
 {
-	"id" : "floor_1",
-	"name": "1 andar",
+	"id" : "2-andar",
+	"name": "2 andar",
 	"details" : {
-		"img" : "assets/images/floor_1.png",
+		"img" : "assets/images/floor_2.png",
 		"categorized" : [
 			{
 				"title" : "Salas",
 				"iconMarkers" : [
 					{
-						"title" : "BNU-301",
+						"title" : "BNU-201",
 						"titlePermanent" : true,
 						"latLng": [112, 148],
 						"markerColor" : "green",
@@ -16,7 +16,7 @@
 						"icon": "users"
 					},
 					{
-						"title" : "BNU-303",
+						"title" : "BNU-203",
 						"titlePermanent" : true,
 						"latLng": [184, 38],
 						"markerColor" : "green",
@@ -52,7 +52,7 @@
 				{
 					"title" : "teste!",
 					"titlePermanent" : false,
-					"message": "oi, retire seu item aqui!",
+					"message": "Retire seu item aqui!",
 					"latLng": [260, 222],
 					"markerColor" : "blue",
 					"iconColor" : "white",
@@ -61,9 +61,9 @@
 			],
 			"circleMarkers" : [
 				{
-					"title" : "eita!",
+					"title" : "area teste!",
 					"titlePermanent" : false,
-					"message": "area invadida!",
+					"message": "Mensagem aqui",
 					"latLng": [400, 222],
 					"color" : "blue",
 					"fillColor" : "red",

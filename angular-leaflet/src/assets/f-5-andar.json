@@ -1,24 +1,24 @@
 {
-	"id" : "floor_0",
-	"name": "Terreo",
+	"id" : "5-andar",
+	"name": "5 andar",
 	"details" : {
-		"img" : "assets/images/floor_0.png",
+		"img" : "assets/images/floor_5.png",
 		"categorized" : [
 			{
 				"title" : "Salas",
 				"iconMarkers" : [
 					{
-						"title" : "BNU-301",
+						"title" : "BNU-501",
 						"titlePermanent" : true,
-						"latLng": [112, 148],
+						"latLng": [148, 112],
 						"markerColor" : "green",
 						"iconColor" : "white",
 						"icon": "users"
 					},
 					{
-						"title" : "BNU-303",
+						"title" : "BNU-503",
 						"titlePermanent" : true,
-						"latLng": [184, 38],
+						"latLng": [38, 184],
 						"markerColor" : "green",
 						"iconColor" : "white",
 						"icon": "users"
@@ -52,7 +52,7 @@
 				{
 					"title" : "teste!",
 					"titlePermanent" : false,
-					"message": "oi, retire seu item aqui!",
+					"message": "Retire seu item aqui!",
 					"latLng": [260, 222],
 					"markerColor" : "blue",
 					"iconColor" : "white",
@@ -61,9 +61,9 @@
 			],
 			"circleMarkers" : [
 				{
-					"title" : "eita!",
+					"title" : "area teste!",
 					"titlePermanent" : false,
-					"message": "area invadida!",
+					"message": "Mensagem aqui",
 					"latLng": [400, 222],
 					"color" : "blue",
 					"fillColor" : "red",
