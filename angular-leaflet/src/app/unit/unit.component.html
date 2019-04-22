@@ -1,0 +1,11 @@
+<h2 class="titulo">{{unit.name}}</h2>
+<ul class="nav nav-pills nav-justified">
+  <li *ngFor="let floor of floors" class="nav-item">
+    <a class="nav-link" 
+      [class.active]="floor === selectedFloor"
+      routerLink="/m/{{unit.id}}/{{floor.id}}">
+      {{floor.name}}
+    </a>
+  </li>
+</ul>
+<div id="map"></div>

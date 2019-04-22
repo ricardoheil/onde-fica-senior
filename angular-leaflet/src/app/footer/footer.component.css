@@ -1,0 +1,11 @@
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background: #f2f2f2;
+}
+
+.footer p {
+	margin: 0 0 0 0;
+}

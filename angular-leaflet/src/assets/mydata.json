@@ -1,0 +1,76 @@
+{
+	"id" : "floor_0",
+	"name": "Térreo",
+	"details" : {
+		"img" : "assets/images/floor_0.png",
+		"categorized" : [
+			{
+				"title" : "Salas",
+				"iconMarkers" : [
+					{
+						"title" : "BNU-301",
+						"titlePermanent" : true,
+						"latLng": [112, 148],
+						"markerColor" : "green",
+						"iconColor" : "white",
+						"icon": "users"
+					},
+					{
+						"title" : "BNU-303",
+						"titlePermanent" : true,
+						"latLng": [184, 38],
+						"markerColor" : "green",
+						"iconColor" : "white",
+						"icon": "users"
+					}
+				]
+			},
+			{
+				"title" : "Banheiros",
+				"iconMarkers" : [
+					{
+						"title" : "WC Masculino",
+						"titlePermanent" : false,
+						"latLng": [500, 35],
+						"markerColor" : "green",
+						"iconColor" : "white",
+						"icon": "male"
+					},
+					{
+						"title" : "WC Feminino",
+						"titlePermanent" : false,
+						"latLng": [350, 35],
+						"markerColor" : "green",
+						"iconColor" : "white",
+						"icon": "female"
+					}
+				]
+			}
+		],
+		"uncategorized" : {
+			"iconMarkers" : [
+				{
+					"title" : "teste!",
+					"titlePermanent" : false,
+					"message": "oi, retire seu item aqui!",
+					"latLng": [260, 222],
+					"markerColor" : "blue",
+					"iconColor" : "white",
+					"icon": "asterisk"
+				}
+			],
+			"circleMarkers" : [
+				{
+					"title" : "eita!",
+					"titlePermanent" : false,
+					"message": "area invadida!",
+					"latLng": [400, 222],
+					"color" : "blue",
+					"fillColor" : "red",
+					"fillOpacity": 0.5,
+					"radius": 50
+				}
+			]
+		}
+	}
+}

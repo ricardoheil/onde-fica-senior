@@ -1,0 +1,23 @@
+<nav class="navbar navbar-dark bg-primary justify-content-between">
+	<a class="navbar-brand" routerLink="/dashboard"><i class="fas fa-map-signs"></i> OndeFica?</a>
+	<form *ngIf="searchBoxVisible" class="form-inline my-2 my-lg-0" onsubmit="return false;">
+		<input #searchStr class="form-control mr-sm-2" type="search" placeholder="Localizar..." aria-label="Search" 
+			(keyup)="onChangeSearchBox(searchStr.value)" (search)="onChangeSearchBox(searchStr.value)">
+	</form>
+</nav>
+
+
+<!--
+	<form class="form-inline my-2 my-lg-0">
+		<input #searchStr class="form-control mr-sm-2" type="search" placeholder="Localizar..." aria-label="Search" 
+		(keyup)="onChange(searchStr.value)" (search)="onChange(searchStr.value)">
+	</form>
+<div class="wrapper-header">
+	<nav class="navbar navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+		<img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+		#OndeFica - Senior
+		</a><i class="fas fa-map-signs fa-2x">
+	</nav>
+</div>
+-->

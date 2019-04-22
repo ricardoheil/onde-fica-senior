@@ -1,0 +1,21 @@
+/*.wrapper-content {
+	z-index: -9999;
+}*/
+
+#map {
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 90%;
+	width: auto;
+	height: auto;
+	border: 1px solid #d8d8d8;
+}
+
+.leaflet-container {
+    background: #f2f2f2;
+}
+
+.titulo {
+	text-align: center;
+}

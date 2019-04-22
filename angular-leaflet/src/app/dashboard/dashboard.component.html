@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">   
+    <div *ngFor="let unit of units" class="col-sm-4">
+      <div class="card border-dark my-1">
+        <div class="card-body">
+          <h5 class="card-title">{{unit.name}}</h5>
+          <p class="card-text">Infos complementares</p>
+        </div>
+        <div class="card-footer">
+          <a class="btn btn-primary"
+              routerLink="/m/{{unit.id}}">
+              <i class="fas fa-map-marked-alt"></i> Acessar          
+          </a>
+          <!--<button type="button" class="btn btn-secondary"
+            (click)="copyMessage()">
+              <i class="fas fa-copy"></i> Copiar Link
+          </button>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
