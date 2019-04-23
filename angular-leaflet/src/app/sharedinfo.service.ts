@@ -11,7 +11,6 @@ export class SharedInfoService {
     searchBoxVisible$ = this.searchBoxVisible.asObservable();
 
     constructor() {
-        console.log('SharedInfoService.constructor');
         this.setSearchBoxVisible(true);
         this.setSearchBoxTerm('');
     }

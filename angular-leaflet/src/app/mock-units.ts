@@ -2,9 +2,9 @@ import { Unit } from './unit';
 import { Floor } from './floor';
 
 export const UNITS: Unit[] = [
-  { id: 'senior-matriz', name: 'Senior Matriz' },
+  { id: 'senior-matriz', name: 'Senior Matriz', infos: 'R. São Paulo, 825 - Victor Konder, Blumenau - SC' },
   { id: 'senior-sp', name: 'Filial SP' },
-  { id: 'senior-spi', name: 'Filial SPI' },
+  { id: 'senior-spi', name: 'Filial SPI', infos: 'R. Teste, 293 - Centro, Indaiatuba - SP' },
   { id: 'softran', name: 'Softran Joinville' },
   { id: 'mega-curitiba', name: 'Mega Curitiba' },
   { id: 'mega-rj', name: 'Mega RJ' },

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
-import { catchError, tap } from 'rxjs/operators';
+import { catchError, tap, map } from 'rxjs/operators';
 
 import { Unit } from './unit';
 import { Floor } from './floor';
@@ -31,7 +31,16 @@ export class UnitService {
   getFloor(unit: string, id: string): Observable<Floor> {
     const url = `./assets/f-${id}.json`;
     return this.http.get<Floor>(url).pipe(
-      tap(_ => console.log(`fetched floor id=${id}`)),
+      //tap(_ => console.log(`fetched floor id=${id}`)),
+      catchError(this.handleError<Floor>(`getFloor id=${id}`))
+    );
+  }
+
+  getFloor2(unit: string, id: string): Observable<Floor> {
+    const url = `./assets/f-${id}.json`;
+    return this.http.get(url).pipe(
+      //tap(_ => console.log(`fetched floor id=${id}`)),
+      map(res => { return Floor.createFromJSON(res); }),
       catchError(this.handleError<Floor>(`getFloor id=${id}`))
     );
   }
